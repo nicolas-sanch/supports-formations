@@ -19,7 +19,9 @@ export default defineConfig({
         items: [
           { text: 'Plan de cours', link: '/modules/vcs/plan_de_cours.md' },
           { text: 'Configuration', link: '/modules/vcs/configuration.md' },
-          { text: 'Créer et manipuler des branches', link: '/modules/vcs/creer_manipuler_branches.md' }
+          { text: 'Créer et manipuler un dépôt', link: '/modules/vcs/creer_manipuler_depot.md' },
+          { text: 'Les branches', link: '/modules/vcs/utiliser_les_branches.md' },
+          { text: 'Les dépots distants', link: '/modules/vcs/depots_distants.md' }
         ]
       },
       {

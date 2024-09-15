@@ -1,4 +1,3 @@
-
 # 2 - Créer et manipuler un dépôt local
 
 Pour créer un dépôt local:
@@ -24,7 +23,7 @@ Après l'initialisation de notre dépôt, nos fichiers évoluent entre trois zon
 ```git status``` permet de visualiser l'état des fichiers
 <br/>
 
-![Trois_zones.pgn](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/2_Depot/Trois_zones.png)
+![Trois_zones.pgn](img/Trois_zones.png)
 
 
 ## Ajouter des fichiers dans l'index
@@ -77,7 +76,7 @@ L'historique est ainsi conservé.<br/>
 
 ```sh
 git reset notreCommitCible --hard # Permet de revenir à n'importe quel commit en supprimant tout ce qui est ultérieur
-git reset notreCommitCible --mixed                 # Permet de revenir juste après le commit cible sans supprimer les modifications en cours
+git reset notreCommitCible --mixed # Permet de revenir juste après le commit cible sans supprimer les modifications en cours
 git reset notreCommitCible --soft # Permet de se placer sur un commit spécifique afin de voir le code à un instant donné
 ```
 

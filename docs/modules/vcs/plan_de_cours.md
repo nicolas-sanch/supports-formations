@@ -47,7 +47,7 @@ ___
 * [Histoire de Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Une-rapide-histoire-de-Git)
 
 
-## [1 - Installer et configurer Git](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/1_Configuration/README.md)
+## [1 - Installer et configurer Git](https://nicolas-sanch.github.io/supports-formations)
 
 ## [2 - Créer et manipuler un dépôt](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/2_Depot/README.md)
 
