@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/supports-formations/'
+  base: '/supports-formations/',
   title: "Supports de formation",
   description: "Cours et outils destinés à l'apprentissage des technologies innovantes",
   themeConfig: {
