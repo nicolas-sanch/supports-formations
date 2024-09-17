@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Supports de formation"
   # text: "Supports de formation de Nicolas SANCH"
-  tagline: Cours, TP et outils pour l'apprentissage des technologies d'aujourd'hui et demain
+  tagline: Cours, TP et outils pour l'apprentissage des technologies
   #actions:
   #  - theme: brand
   #    text: Markdown Examples
