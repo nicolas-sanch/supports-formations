@@ -1,9 +1,7 @@
-# Introduction
+# Qu'est-ce que la gestion de versions ?
 
 * [La gestion de version](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-%C3%80-propos-de-la-gestion-de-version)
 * [Histoire de Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Une-rapide-histoire-de-Git)
-
-## Qu'est-ce que la gestion de versions ?
 
 La gestion de versions est une pratique essentielle dans le développement de logiciels, permettant de suivre et de gérer les modifications apportées à des fichiers au fil du temps. Imaginez que vous travaillez sur un projet complexe avec plusieurs collaborateurs. Chaque membre de l'équipe effectue des modifications, ajoute de nouvelles fonctionnalités ou corrige des bugs. Sans un système pour gérer ces changements, il serait extrêmement difficile de suivre l'évolution du projet, de revenir à une version antérieure en cas de problème, ou même de collaborer efficacement.
 

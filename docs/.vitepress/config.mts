@@ -19,9 +19,14 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Plan de cours', link: '/modules/vcs/plan_de_cours.md' },
-              { text: 'Introduction', link: '/modules/vcs/gestion_de_version.md' },
-              { text: 'Installation de Git', link: '/modules/vcs/installation.md' },
-              { text: 'Configuration', link: '/modules/vcs/configuration.md' },
+              {
+                text: 'Introduction', collapsed: true, items:
+                  [
+                    { text: 'La gestion de versions', link: '/modules/vcs/gestion_de_version.md' },
+                    { text: 'Installation de Git', link: '/modules/vcs/installation.md' },
+                    { text: 'Configuration', link: '/modules/vcs/configuration.md' }
+                  ]
+              },
               { text: 'Les trois zones', link: '/modules/vcs/trois_zones.md' },
               { text: 'Initialisation et commit', link: '/modules/vcs/commit.md' },
               { text: 'Git status', link: '/modules/vcs/git_status.md' },
