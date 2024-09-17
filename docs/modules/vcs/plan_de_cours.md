@@ -39,36 +39,10 @@ Enfin, une évaluation permettra de valider ce module.
 
 📧 nicolas.sanch@protonmail.com
 
-___
-
-## Introduction
-
-* [La gestion de version](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-%C3%80-propos-de-la-gestion-de-version)
-* [Histoire de Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Une-rapide-histoire-de-Git)
-
-
-## [1 - Installer et configurer Git](https://nicolas-sanch.github.io/supports-formations)
-
-## [2 - Créer et manipuler un dépôt](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/2_Depot/README.md)
-
-## [3 - Les branches](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/3_Branches/README.md)
-
-## [4 - Les dépôts distants](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/4_Depots_distants/README.md)
-
-## [TP1](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/TP1/README.md)
-
-## [TP2](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/TP2/README.md)
-
-## [TP3](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/TP3/README.md)
-
-## [TP4](https://github.com/nicolas-sanch/versions-du-code-source/blob/main/TP4/README.md)
-
-* [Télécharger SourceTree](https://www.atlassian.com/fr/software/sourcetree)
-
-___
 
 ## Pour aller plus loin
 
+* [Télécharger SourceTree](https://www.atlassian.com/fr/software/sourcetree)
 * Git - Maîtrisez la gestion de vos versions de Samuel DAUZON
 * [Documentation Git](https://git-scm.com/doc)
 * [Utilisation de la commande git rebase](https://www.miximum.fr/blog/git-rebase/)
