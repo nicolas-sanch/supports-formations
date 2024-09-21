@@ -32,7 +32,14 @@ export default defineConfig({
               { text: 'Git status', link: '/modules/vcs/git_status.md' },
               { text: 'Gérer ses versions', link: '/modules/vcs/gerer_versions.md' },
               { text: 'Les branches', link: '/modules/vcs/utiliser_les_branches.md' },
-              { text: 'Les dépots distants', link: '/modules/vcs/depots_distants.md' }
+              { text: 'Git checkout', link: '/modules/vcs/git_checkout.md' },
+              { text: 'Les dépots distants', link: '/modules/vcs/depots_distants.md' },
+              {
+                text: 'Travaux pratiques', collapsed: true, items:
+                  [
+                    { text: 'TP1', link: '/modules/vcs/tp/tp1.md' }
+                  ]
+              }
             ]
           },
           {
@@ -40,6 +47,15 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Introduction au développement web', link: '/modules/intro_dev_web/intro_dev_web.md' }
+            ]
+          },
+          {
+            text: 'Outils',
+            collapsed: true,
+            items: [
+              { text: 'Windows Subsystem for Linux', link: '/modules/outils/wsl.md' },
+              { text: 'Visual Studio Code', link: '/modules/outils/visual_studio_code.md' },
+              { text: 'Docker', link: '/modules/outils/docker' }
             ]
           },
         ]
