@@ -1,0 +1,71 @@
+# TP2 - Projet collaboratif en HTML/CSS
+
+## Objectifs :
+- Comprendre et utiliser Git en environnement collaboratif.
+- Gérer les branches, les fusions (merge), et résoudre les conflits.
+- Manipuler un dépôt distant sur GitHub ou GitLab.
+- Découvrir les bases de HTML et CSS.
+- Collaborer efficacement en groupe sur un projet web simple.
+
+#### Durée : 4 heures  
+Groupes : 4 étudiants par groupe
+
+## Scénario
+
+Les étudiants devront créer une petite page web pour un site fictif d’une startup, **TechInnov**, présentant une technologie ou un produit innovant. Chaque groupe devra collaborer pour mettre en place le site suivant les étapes et consignes ci-dessous, tout en utilisant Git pour gérer le versioning du code.
+
+#### Partie 1 : Initialisation et introduction à Git (30 min)
+1. **Création d’un dépôt Git local :**  
+   Chaque groupe choisira un responsable qui créera un nouveau dépôt Git sur sa machine locale.
+2. **Initialisation du dépôt distant :**  
+   Le responsable doit initialiser un dépôt sur GitHub ou GitLab et y pousser le projet vide.
+3. **Clonage du dépôt :**  
+   Les autres membres du groupe devront cloner le dépôt distant sur leurs machines locales.
+
+#### Partie 2 : Création de la structure de base en HTML (45 min)
+1. **Brancher sur une nouvelle branche :**  
+   Chaque étudiant devra créer une branche dédiée à une section de la page :
+   - Étudiant 1 : création du fichier `index.html` avec la structure de base (balises HTML, titre).
+   - Étudiant 2 : ajout de la section d’en-tête avec le nom de l'entreprise et un slogan.
+   - Étudiant 3 : ajout d'une section pour présenter la technologie ou le produit.
+   - Étudiant 4 : ajout d'une section contact avec un formulaire simple (nom, email, message).
+
+2. **Push et Merge :**  
+   Chaque étudiant devra :
+   - Pousser sa branche sur le dépôt distant.
+   - Créer une Pull Request (PR) et proposer la fusion (merge) sur la branche principale.
+   - L’un des étudiants, désigné responsable, validera et fusionnera chaque branche dans la branche principale.
+
+#### Partie 3 : Introduction au CSS (45 min)
+1. **Création du fichier CSS :**
+   - Étudiant 1 : création du fichier `style.css` et ajout des règles de style de base (police, taille de texte).
+   - Étudiant 2 : stylisation de l'en-tête (couleur de fond, style du texte).
+   - Étudiant 3 : mise en forme de la section technologie/produit (bordures, marges).
+   - Étudiant 4 : stylisation du formulaire (positionnement des champs, boutons).
+
+2. **Gestion des branches et merge :**
+   Chaque étudiant devra répéter les étapes de création de branche, push, PR et merge pour ajouter le CSS. Ils devront aussi résoudre les éventuels conflits de merge.
+
+#### Partie 4 : Collaboration avancée et gestion des conflits (1h15)
+1. **Modification simultanée :**
+   Afin d'expérimenter la gestion des conflits, deux étudiants doivent travailler simultanément sur une même section du fichier HTML ou CSS (par exemple, modifier l’en-tête ou le style du formulaire).
+   - Simulez un conflit en travaillant sur la même ligne de code dans différentes branches.
+   - Apprenez à résoudre le conflit en choisissant les modifications à conserver.
+
+2. **Pull Requests et revue de code :**
+   - Chaque étudiant doit créer une Pull Request.
+   - Les autres membres devront lire et approuver ou commenter les PRs avant la fusion.
+
+#### Partie 5 : Finalisation et présentation du projet (30 min)
+1. **Finalisation :**
+   Chaque groupe devra s’assurer que leur page web est fonctionnelle et agréable à regarder. Ils peuvent ajouter des images, améliorer le design ou la structure en travaillant ensemble.
+   
+2. **Présentation du projet :**
+   Chaque groupe présentera rapidement son projet, les étapes de développement, et les éventuels problèmes rencontrés (conflits Git, organisation du travail).
+
+---
+
+### Ressources :
+- **Guide GitHub/GitLab** : [Lien vers documentation GitHub/GitLab](https://docs.github.com/fr)
+- **Référence HTML** : [Lien vers la documentation HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+- **Référence CSS** : [Lien vers la documentation CSS](https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps)

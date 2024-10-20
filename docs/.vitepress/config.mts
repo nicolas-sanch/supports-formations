@@ -37,7 +37,8 @@ export default defineConfig({
               {
                 text: 'Travaux pratiques', collapsed: true, items:
                   [
-                    { text: 'TP1', link: '/modules/vcs/tp/tp1.md' }
+                    { text: 'TP - Rainbow', link: '/modules/vcs/tp/tp1.md' },
+                    { text: 'TP - Projet collaboratif en HTML/CSS', link: '/modules/vcs/tp/tp2.md' }
                   ]
               }
             ]
