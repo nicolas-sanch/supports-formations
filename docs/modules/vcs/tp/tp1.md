@@ -1,4 +1,4 @@
-# TP1 - Rainbow
+# TP - Rainbow
 
 ## I - Les bases
 

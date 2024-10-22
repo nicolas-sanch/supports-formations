@@ -1,4 +1,4 @@
-# TP2 - Projet collaboratif en HTML/CSS
+# TP - Projet collaboratif en HTML/CSS
 
 ## Objectifs :
 - Comprendre et utiliser Git en environnement collaboratif.
@@ -63,9 +63,120 @@ Les étudiants devront créer une petite page web pour un site fictif d’une st
 2. **Présentation du projet :**
    Chaque groupe présentera rapidement son projet, les étapes de développement, et les éventuels problèmes rencontrés (conflits Git, organisation du travail).
 
----
 
-### Ressources :
+## Ressources :
 - **Guide GitHub/GitLab** : [Lien vers documentation GitHub/GitLab](https://docs.github.com/fr)
 - **Référence HTML** : [Lien vers la documentation HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 - **Référence CSS** : [Lien vers la documentation CSS](https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps)
+
+## Annexes
+
+Pour aider la création de la page web en HTML et CSS.
+
+### Annexe 1 : Exemple de structure HTML de base
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInnov - Site de présentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue chez TechInnov</h1>
+        <p>Votre partenaire pour des innovations technologiques.</p>
+    </header>
+    
+    <section id="presentation">
+        <h2>Notre Technologie</h2>
+        <p>Chez TechInnov, nous développons des solutions révolutionnaires pour l’industrie de demain.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+</body>
+</html>
+```
+
+### Annexe 2 : Exemple de fichier CSS basique
+
+```css
+/* Fichier : style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+```
