@@ -1,6 +1,6 @@
 # Versions du code source (Git)
 
-## Plan de cours
+## Plan de cours v2
 
 Organisé 12 séances (4 cours, 7 TP, 1 évaluation) le module versions du code source a comme pré-requis de bonnes connaissances en développement informatique.
 <br/>
