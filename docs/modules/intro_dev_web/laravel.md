@@ -40,7 +40,7 @@ Laravel est un framework PHP open-source, moderne et puissant, conçu pour le d�
    ```bash
    php artisan serve
    ```
-   Accédez à votre application via [http://localhost:8000](http://localhost:8000).
+   Accédez à votre application via http://localhost:8000.
 
 ### Installation via Docker
 
