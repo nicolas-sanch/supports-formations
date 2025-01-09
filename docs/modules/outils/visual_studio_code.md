@@ -51,7 +51,3 @@ Grâce à des extensions comme **GitLens**, vous pouvez explorer l'historique de
 
 ### 6. **Résolution des conflits**
 Lorsqu'un conflit Git survient lors d'un *merge*, VS Code met en évidence les sections en conflit et fournit des outils pour choisir les versions à conserver ou fusionner.
-
-## Conclusion
-
-Visual Studio Code est un outil puissant pour les développeurs, notamment grâce à son intégration native avec Git, facilitant ainsi la gestion des projets versionnés. L'installation sur Windows est rapide et l'utilisation de Git depuis VS Code rend le travail collaboratif plus fluide.

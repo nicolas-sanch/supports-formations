@@ -19,7 +19,7 @@ features:
     link: /modules/vcs/plan_de_cours.md
     details: Apprendre à utiliser GIT au sein d'un projet de développement
   - title: Introduction au développement web
-    link: /modules/intro_dev_web.md
+    link: /modules/intro_dev_web/html.md
     details: Initiation à l'utilisation des outils et des langages du web
 ---
 

@@ -114,7 +114,3 @@ Voici quelques commandes WSL pratiques à utiliser :
 
 - **Accéder aux fichiers Windows depuis WSL** :  
   Depuis une distribution Linux, vous pouvez accéder aux fichiers Windows en naviguant dans le dossier `/mnt/c/`.
-
-## Conclusion
-
-Le Windows Subsystem for Linux (WSL) et WSL2 offrent un environnement puissant pour les développeurs sur Windows. Grâce à l'intégration avec des outils comme Visual Studio Code, vous pouvez profiter du meilleur des deux mondes : la productivité de Windows et la puissance des outils Linux.

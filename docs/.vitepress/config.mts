@@ -47,7 +47,27 @@ export default defineConfig({
             text: 'Introduction au développement web',
             collapsed: true,
             items: [
-              { text: 'Introduction au développement web', link: '/modules/intro_dev_web/intro_dev_web.md' }
+              {
+                text: 'Web statique', collapsed: true, items:
+                  [
+                    { text: 'HTML', link: '/modules/intro_dev_web/html.md' },
+                    { text: 'CSS', link: '/modules/intro_dev_web/css.md' }
+                  ]
+              },
+              {
+                text: 'Web dynamique', collapsed: true, items:
+                  [
+                    { text: 'Laravel', link: '/modules/intro_dev_web/laravel.md' }
+                  ]
+              },
+              {
+                text: 'Travaux pratiques', collapsed: true, items:
+                  [
+                    { text: 'Hello-world PHP', link: '/modules/intro_dev_web/tp/hello-world_php.md' },
+                    { text: 'Hello-world Python', link: '/modules/intro_dev_web/tp/hello-world_python.md' },
+                    { text: 'Blog minimaliste', link: '/modules/intro_dev_web/tp/minimalist-blog.md' }
+                  ]
+              }
             ]
           },
           {
