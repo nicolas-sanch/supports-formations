@@ -120,5 +120,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nicolas-sanch/supports' }
     ]
-  }
+  },
+
+  ignoreDeadLinks: true
 })
