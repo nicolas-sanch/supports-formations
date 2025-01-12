@@ -23,12 +23,6 @@ Ensuite, on [créer un nouveau projet Laravel](https://laravel.com/docs/9.x)
 curl -s "https://laravel.build/minimalist-blog-laravel" | bash
 ```
 
-Une fois les conteneurs Docker de l'application démarrés, vous devez exécuter les migrations de base de données de votre application :
-
-```bash
-./vendor/bin/sail artisan migrate
-```
-
 On ouvre le dossier _minimalist-blog-laravel_ avec Visual Studio <br>
 Dans Visual Studio, on ouvre un terminal et lance :
 
@@ -817,7 +811,8 @@ class ReplyController extends Controller
 }
 ```
 
-Enfin HomeController.php
+Enfin, HomeController.php
+
 ```php
 <?php
 
@@ -852,5 +847,22 @@ class HomeController extends Controller
         // view home page with all posts from database.
         return view('home')->with('posts', $posts);
     }
+}
+```
+
+S'il n'a pas été généré, le contenu de Controller.php est le suivant :
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Routing\Controller as BaseController;
+
+class Controller extends BaseController
+{
+    use AuthorizesRequests, ValidatesRequests;
 }
 ```

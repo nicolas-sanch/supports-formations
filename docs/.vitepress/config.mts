@@ -57,6 +57,7 @@ export default defineConfig({
               {
                 text: 'Web dynamique', collapsed: true, items:
                   [
+                    { text: 'PHP', link: '/modules/intro_dev_web/php.md' },
                     { text: 'Laravel', link: '/modules/intro_dev_web/laravel.md' }
                   ]
               },
